@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <title>IMC: Cáculo de indice de massa corporal.</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tabela IMC</h1>
+        <div class="column">
+        <h2>IMC</h2>
+        <p>Menos do que 18,5</p>
+        <p>Entre 18,5 e 24,9</p>
+        <p>Entre 25 e 29,9</p>
+        <p>Entre 30 e 34,9</p>
+        <p>Entre 35 e 39,9</p>
+        <p>Mais do que 40</p>
+      
+        <h2>Resultado</h2>
+        <p>Abaixo do peso</p>
+        <p>Peso normal</p>
+        <p>Sobrepeso</p>
+        <p>Obesidade grau 1</p>
+        <p>Obesidade grau 2</p>
+        <p>Obesidade grau 3</p>
+    </div>
+      
+      <h1>Caulcule seu IMC</h1>
+
+      <form action="" id="formulario" method="post">
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso" name="peso" />
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura" name="altura" />
+        <button class="button" type="submit">Caulcular</button>
+      </form>
+     
+    <div id="resultado"></div>
+    
+  </div>
+   <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.js" />
+</body>
+</html>
